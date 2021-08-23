@@ -1,8 +1,6 @@
 import { css } from "linaria";
 import tw from "twin.macro";
-
-import Logo from "../../atoms/Logo";
-import HumburgerButton from "../../atoms/HumburgerButton";
+import { Logo, HumburgerButton } from "../../atoms";
 import HeaderMenu from "../../organisms/HeaderMenu";
 
 const Header = () => {
