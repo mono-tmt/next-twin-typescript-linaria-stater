@@ -1,5 +1,5 @@
 import HeadingGroup from "../../molecules/HeadingGroup";
-import Post from "../../organisms/Post";
+import { Post, Pagination } from "../../organisms";
 const Main = () => {
   return (
     <div className="px-6 py-8">
@@ -10,13 +10,14 @@ const Main = () => {
           <div className="mt-2">
             <Post />
           </div>
-
           <div className="mt-2">
             <Post />
           </div>
-
           <div className="mt-2">
             <Post />
+          </div>
+          <div className="mt-8">
+            <Pagination />
           </div>
         </div>
       </div>
