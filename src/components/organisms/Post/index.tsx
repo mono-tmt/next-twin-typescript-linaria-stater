@@ -1,4 +1,4 @@
-import { Button, Paragraph } from "../../atoms";
+import { Button, Link, Paragraph } from "../../atoms";
 const Post = () => {
   return (
     <div className="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md">
@@ -21,9 +21,7 @@ const Post = () => {
         />
       </div>
       <div className="flex items-center justify-between mt-4">
-        <a href="#" className="text-blue-500 hover:underline">
-          Read more
-        </a>
+        <Link size="small" label="詳しく見る" />
         <div>
           <a href="#" className="flex items-center">
             <img
