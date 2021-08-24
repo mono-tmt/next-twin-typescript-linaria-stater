@@ -6,8 +6,8 @@ const Main = () => {
     <div className="px-6 py-8">
       <div className="container flex justify-between mx-auto">
         <div className="hidden w-4/12 -mx-8 lg:block">
-          <div className="px-8 mt-10">
-            <Heading />
+          <div className="px-8">
+            <Heading title="使用する技術" />
             <List />
           </div>
         </div>

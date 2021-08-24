@@ -5,7 +5,7 @@ import { HeaderMenu } from "../../organisms";
 
 const Header = () => {
   return (
-    <nav
+    <header
       className={css`
         ${tw`px-6 py-4 shadow`}
         background-color: #0045E4;
@@ -18,7 +18,7 @@ const Header = () => {
         </div>
         <HeaderMenu />
       </div>
-    </nav>
+    </header>
   );
 };
 export default Header;
