@@ -8,12 +8,7 @@ interface Props {
   label?: string;
   onClick?: () => void;
 }
-const Button: React.FC<Props> = ({
-  icon = false,
-  size = "large",
-  label,
-  ...props
-}) => {
+const Button: React.FC<Props> = ({ icon = false, size = "large", label }) => {
   const baseButton = "border-2 border-gray-900 rounded-full";
   const sizeMode =
     size === "small"
@@ -27,6 +22,7 @@ const Button: React.FC<Props> = ({
     <button
       className={`transition ease-in duration-200 uppercase hover:bg-gray-800 hover:text-white focus:outline-none  ${baseButton} ${sizeMode}`}
     >
+      {icon && <i></i>}
       {label}
     </button>
   );

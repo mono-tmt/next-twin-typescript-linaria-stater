@@ -1,13 +1,18 @@
 import HeadingGroup from "../../molecules/HeadingGroup";
 import { Heading } from "../../atoms";
-import { Post, Pagination, List } from "../../organisms";
+import { AuthorList, Post, Pagination, List } from "../../organisms";
 const Main = () => {
   return (
     <div className="px-6 py-8">
       <div className="container flex justify-between mx-auto">
         <div className="hidden w-4/12 -mx-8 lg:block">
           <div className="px-8">
+            <Heading title="投稿者" />
+            <div className="mb-4" />
+            <AuthorList />
+            <div className="mb-6" />
             <Heading title="使用する技術" />
+            <div className="mb-4" />
             <List />
           </div>
         </div>
