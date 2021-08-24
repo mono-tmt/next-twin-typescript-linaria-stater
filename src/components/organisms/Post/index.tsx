@@ -6,20 +6,14 @@ const Post = () => {
         <span className="font-light text-gray-600">8月1日, 2020</span>
         <Button label="タグ" size="small" />
       </div>
-      <div className="mt-2">
-        <a
-          href="#"
-          className="text-2xl font-bold text-gray-700 hover:underline"
-        >
-          Build Your New Idea with Next.js.
-        </a>
-        <div className="mt-2" />
-        <Paragraph
-          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos
+      <div className="mt-2" />
+      <Link label="Build Your New Idea with Next.js" size="large" />
+      <div className="mt-2" />
+      <Paragraph
+        text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos
           enim reprehenderit nisi, accusamus delectus nihil quis facere in modi
           ratione libero!"
-        />
-      </div>
+      />
       <div className="flex items-center justify-between mt-4">
         <Link size="small" label="詳しく見る" />
         <div>
