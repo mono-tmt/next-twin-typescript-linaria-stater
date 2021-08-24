@@ -1,4 +1,4 @@
-import { Button } from "../../atoms";
+import { Button, Paragraph } from "../../atoms";
 const Post = () => {
   return (
     <div className="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md">
@@ -13,12 +13,12 @@ const Post = () => {
         >
           Build Your New Idea with Next.js.
         </a>
-        <p className="mt-2 text-gray-600">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
-          expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos
+        <div className="mt-2" />
+        <Paragraph
+          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos
           enim reprehenderit nisi, accusamus delectus nihil quis facere in modi
-          ratione libero!
-        </p>
+          ratione libero!"
+        />
       </div>
       <div className="flex items-center justify-between mt-4">
         <a href="#" className="text-blue-500 hover:underline">
